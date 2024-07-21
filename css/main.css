@@ -1,0 +1,59 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  margin-top: 60px;
+  padding: 40px 0 20px;
+  color: #222;
+}
+section{
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+section .arrow-btn{
+  text-align: center;
+  height: 40px;
+}
+section .arrow-btn span{
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ebf7f7;
+}
+section .arrow-btn span i{
+  font-size: 24px;
+  color: #222;
+  line-height: 40px;
+  width: 100%;
+  height: inherit;
+  text-align: center;
+}
+section .view{
+  width: 100%;
+  overflow: hidden;
+  margin: 40px 0;
+}
+section .view #source{
+  width: 500%;
+}
+section .view #source::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+section .view #source li{
+  width: 20%;
+  float: left;
+}
+section .view #source li img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
