@@ -57,3 +57,19 @@ section .view #source li img{
   width: 100%;
   height: auto;
 }
+
+.btn{
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #222;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.btn a{
+  color: inherit;
+  line-height: inherit;
+}
