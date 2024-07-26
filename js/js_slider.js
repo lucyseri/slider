@@ -16,7 +16,6 @@ for(let i = 0; i < slideCount; i++){
     slideHeight = slide[i].offsetHeight;
   }
 }
-console.log(slideHeight);
 container.style.height = slideHeight + "px";
 slider.style.height = slideHeight + "px";
 

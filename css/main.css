@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+ul, li{
+  list-style: none;
+}
 h1{
   text-align: center;
   margin-top: 60px;
@@ -36,9 +39,9 @@ section .arrow-btn span i{
   text-align: center;
 }
 section .view{
-  width: 100%;
-  overflow: hidden;
-  margin: 40px 0;
+  width: 500px;
+  /*overflow: hidden;*/
+  margin: 40px auto;
 }
 section .view #source{
   width: 500%;
@@ -72,4 +75,24 @@ section .view #source li img{
 .btn a{
   color: inherit;
   line-height: inherit;
+}
+
+section ul.pager{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 56px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+section ul.pager li{
+  flex:  0 0 24px;
+  height: 8px;
+  background-color: #cccccc;
+  cursor: pointer;
+}
+section ul.pager li.active{
+  background-color: #000;
+
 }
